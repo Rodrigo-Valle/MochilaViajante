@@ -1,0 +1,5 @@
+ip publico --- 172.68.26.76 classe B
+ip privado --- 192.168.15.6 classe C
+sub mascara --- 255.255.255.0
+mac --- D4-5D-64-8F-AA-34
+fabricante --- ASUSTek COMPUTER INC.
