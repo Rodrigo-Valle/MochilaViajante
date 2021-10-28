@@ -8,4 +8,4 @@ let plano = true;
 let imc = peso / (altura * altura);
 
 console.log(nome + " " + sobrenome + " tem " + idade + 
-" anos e seu indice de massa corporea é igual a " + imc.toPrecision(4));
+" anos e seu indice de massa corporea é igual a " + imc.toPrecision(6));
