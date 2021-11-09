@@ -1,0 +1,33 @@
+.square {
+    height: 400px;
+    width: 400px;
+    margin-bottom: 10px;
+}
+
+.first-square {
+    background-color:cadetblue;
+    position: relative;
+    top: 3000px
+}
+
+.second-square {
+    background-color: goldenrod;
+    position: absolute;
+    left: 100px;
+}
+
+.third-square {
+    background-color:rgb(143, 60, 115);
+    position: absolute;
+    top: 1500px;
+    right: 0;
+}
+
+header {
+    background-color: cornflowerblue;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+
+}
