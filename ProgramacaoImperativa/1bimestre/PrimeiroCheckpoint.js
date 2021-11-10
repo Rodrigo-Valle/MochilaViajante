@@ -1,8 +1,7 @@
-let entrada = "brigadeiro";
+let entrada = "cARNE";
 let prato = entrada.toLowerCase();
 let tempo= 35;
     
-
 switch (prato) {
     case "pipoca":
         Microondas(tempo, 10);
@@ -28,7 +27,6 @@ switch (prato) {
         console.log("Prato inexistente")
         break;
 }
-
 
 function Microondas(tempo, padrao){
     if (tempo > 3 * padrao ){
