@@ -1,9 +1,9 @@
 let cadastro = {
     "Nome" : "Rodrigo",
-    "Apelido" : "Guigo",
+    "Apelido" : "guigo",
     "Idade" : 30,
-    "Usuario" : "Guigo",
-    "Rodrigo" : "gmail.com"
+    "Usuario" : "guigo",
+    "Email" : "rodrigo@gmail.com"
 };
 
 console.log(cadastro);
