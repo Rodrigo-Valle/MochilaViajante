@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Style.css">
+</head>
+<body>
+    <form>
+        <h1>Cadastro Usuario</h1>
+
+        <fieldset>
+            <legend>Dados</legend>
+            <label for="username">Nome de usuario</label>
+            <input type="text" name="username" id="username">
+
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email">
+
+            <label for="Senha">Senha</label>
+            <input type="password" name="senha" id="senha">
+
+            <label for="observacao">Obs.</label>
+            <textarea name="observacao" id="observacao"></textarea>
+
+            <label for="estado">Estado</label>
+            <select name="estado" id="estado">
+                <option value="1">São Paulo</option>
+                <option value="2">Rio de Janeiro</option>
+                <option value="3">Minas Gerais</option>
+            </select>  
+        </fieldset> 
+
+        <div>
+            <input type="radio" name="person" id="pf" value="pessoaFisica" checked> 
+            <label for="pf">Pessoa Fisica</label>
+            <input type="radio" name="person" id="pj" value="pessoaJuridica">
+            <label for="pj">Pessoa Juridica</label>
+
+            <input type="checkbox" name="options" id="opt1" value="1">
+            <label for="opt1">Opção 1</label>
+            <input type="checkbox" name="options" id="opt2" value="2">
+            <label for="opt2">Opção 2</label>
+            <input type="checkbox" name="options" id="opt3" value="3">
+            <label for="opt3">Opção 3</label>
+
+            <label for="datanasc">Data de nascimetno</label>
+            <input type="date" name="datanasc" id="datanasc" min="2000-01-01">
+        </div>
+        <button>Enviar formulario</button>
+
+    </form>
+</body>
+</html>

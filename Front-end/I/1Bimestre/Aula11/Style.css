@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+form {
+    margin: 24px
+}
+
+label, input, textarea, button {
+    display: block;
+    margin-top: 8px;
+}

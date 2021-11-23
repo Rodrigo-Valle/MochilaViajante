@@ -27,16 +27,7 @@ console.log(numerosInversosFacil);
 
 console.log(mprimirInverso(numeros));
 
-function ImprimirInverso(array){
-    let novoArray = [];
-    let tamanho = array.lenght;
-    for (let index = 0; index < array.length; index++) {
-        novoArray.push(array[tamanho]);
-        tamanho = tamanho - 1;
-    }
-    return novoArray;
 
-}
 
 
 
