@@ -44,6 +44,31 @@
     
 }
 
+@keyframes cores{
+    0%{
+        color: yellow;
+    }
+    20%{
+        color:red;
+    }
+    40%{
+        color: green;
+    }
+    60%{
+        color: blue;
+    }
+    80%{
+        color: yellow;
+    }
+    100%{
+        color: yellow;
+    }
+
+}
+.titulo{
+
+}
+
 main{
     padding: 32px;
 }
