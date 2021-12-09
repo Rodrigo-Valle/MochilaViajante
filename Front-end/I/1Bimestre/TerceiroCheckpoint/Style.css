@@ -1,0 +1,29 @@
+.intro{
+
+    height: 100vh;
+    background-color: black;
+
+    
+}
+
+
+.livrosFundo{
+    background-image: url("./livros.jpg");
+    height: 100vh;
+    width: 100%;
+    opacity: 0.6;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.main-header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+
+
+
