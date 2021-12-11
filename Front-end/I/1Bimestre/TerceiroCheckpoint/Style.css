@@ -1,6 +1,11 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
 .intro{
 
-    height: 110vh;
+    height: 100vh;
     background-color: black;
     position: absolute;
     top: 0;
@@ -9,7 +14,7 @@
 
 .livrosFundo{
     background-image: url("./livros.jpg");
-    height: 110vh;
+    height: 100vh;
     width: 100%;
     opacity: 0.3;
     background-position: center;
@@ -42,6 +47,25 @@
     top: 0;
     z-index: 1;
 }
+
+
+
+@media (max-width: 800px){
+    .banner{
+        height: 80vh;
+        top: -150px;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 350px){
+    .banner{
+        height: 75vh;
+    }
+
+}
+
+
 
 
 
