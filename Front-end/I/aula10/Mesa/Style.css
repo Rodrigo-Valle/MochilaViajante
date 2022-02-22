@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body {
+    background-image: url(https://cdn.awsli.com.br/1000x1000/1287/1287768/produto/60277586/d175bd2bca.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form {
+    padding: 36px;
+    border-radius: 25px;
+    display: block;
+    position: absolute;
+    height: 700px;
+    width: 400px;
+    margin: 56px auto;
+    background-color: blanchedalmond;
+    left: 500px;
+   
+}
+
+
+form h1 {
+    margin-bottom: 36px;
+}
+form input, label, select, textarea {
+    display: block;
+    font-size: 24px;
+    margin-top: 12px;
+    height: 30px;
+}
+
+form button {
+    border-radius: 25px;
+    margin-top: 36px;
+    margin-left: 10px;
+    height: 40px;
+    width: 100px;
+    font-size: 18px;
+    color: rgb(102, 102, 102);
+    
+}

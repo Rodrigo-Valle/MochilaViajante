@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+body{
+    background-color: #131313;
+}
+
+.Titulo{
+    font-family: 'Roboto', sans-serif;
+    color: white
+}
+
+.imagem{
+    background-image: url("https://teoriageek.com.br/wp-content/uploads/2021/09/Keninha-Capa.jpg");
+    height: 750px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.Subtitulo{
+    color: steelblue;
+    
+}
+
+.Texto{
+    color: #bdbdbd;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.review{
+    font-size: 20px;
+    font-weight: 900;
+    margin-left: 24px;
+    padding: 12px;
+    color: white;
+    background-color: #e6bd09;
+}
+
+a {
+    font-size: 20px;
+    color: yellow;
+}

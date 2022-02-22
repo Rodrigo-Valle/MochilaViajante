@@ -1,0 +1,64 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+header h1{  
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 42px;
+}
+
+header {
+    height: 75px;
+    background-color: cornflowerblue;
+    position: fixed;
+    display: block;
+    width: 100%;
+    top: 0;
+    
+}
+
+div{
+    margin: 50px 50px;
+    display: inline-block;
+}
+
+.imagem{
+    display: block;
+    height: 350px;
+    width: 300px;
+    border-radius: 25px;
+    border-style: dotted;
+}
+div button{
+    display: block;
+    margin: 0 auto;
+    border: none;
+    padding: 24px;
+    background-color: rgb(65, 129, 0);
+    border-radius: 25px;
+    margin-top: 10px;
+    font-size: 24px;
+    color: white;
+    transition: 0.5s;
+}
+div button:hover{
+    transform: scale(1.05);
+    background-color: rgb(83, 167, 0);
+}
+
+
+body{
+    background-image: url(./34a3963145d2a3285e2f66ff4e5745ce.jpg);
+
+    background-repeat: no-repeat;
+    position: fixed;
+    background-position: top;
+    background-size: cover;
+
+    
+}
+

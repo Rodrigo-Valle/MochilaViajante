@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-areas: 
+    "m-header m-header"
+    "m-main m-aside"
+}
+
+header{
+    grid-area: m-header;
+    height: 75px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    font-size: 46px;
+    color: rgb(0, 0, 0);
+}
+
+main{
+    grid-area: m-main;
+    background-color: honeydew;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.main-video{
+    height: 450px;
+    width: 90%;
+}
+
+aside{
+    grid-area: m-aside;
+    background-color: honeydew;
+}
+
+.sidebar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.side-preview{
+    height: 125px;
+    width: 100%;
+    display: flex;
+    gap: 6px;
+}
+
+.thumb{
+    width: 50%
+}
+
+.legenda{
+    display: flex;
+    flex-direction: column;
+    align-items:baseline;
+    gap: 44px;
+
+}
+
+.titulo{
+    font-size: 26px;
+}
+
+.canal{
+    font-size: 20px;
+}
+
+.texto{
+    font-size: 12px;
+}
+

@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+form {
+    padding-left: 24px;
+    padding-top: 24px;
+}
+
+label, input, textarea, button {
+    display: block;
+    margin-top: 12px;
+}

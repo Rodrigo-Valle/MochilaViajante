@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+.botton {
+    color: white;
+    background-color: rgb(138, 138, 138);
+    display: block;
+    margin: 50px auto;
+    border: 0;
+    padding: 50px;
+    font-size: 22px;
+    border-radius: 12px;
+    transition-duration: 5s;
+}
+.botton:hover{
+    background-color: blue;
+
+}
+
+@keyframes floating{
+    0%{
+        transform: translate(-200px, 0);
+        opacity: 0;
+    }
+   
+    100%{
+        opacity: 1;
+        transform: translate(200px, 0);
+    }
+}
+
+.gato{
+    margin: 50px;
+    display: block;
+    font-size: 200px;
+    text-align: center;
+    animation-name: floating;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.note{
+    margin: 50px;
+    display: block;
+    font-size: 200px;
+    text-align: center;
+    transition: 3s ease-in-out;
+    
+   
+}
+.note:hover{
+    transform: scale(.5) rotate(720deg);
+}
+
+
+
+main{
+    padding: 32px;
+}

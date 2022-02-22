@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.imagem {
+    background-image: url(/MochilaViajante/Front-end/I/1Bimestre/Aula07/One-Piece-AstroGeek.jpg);
+    height: 720px;
+    width: auto;
+    background-repeat: no-repeat;
+    padding: 0px 250px;
+}
+
+button {
+    height: 50px;
+    width: 250px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 25px;
+    background-color: cornsilk;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(236, 22, 22);
+    font-family: 'Roboto', sans-serif;
+    font-size: 136px;
+    padding: 15px 15px;
+    margin-bottom: 400px;
+    font-weight: 900;
+    background-color: rgba(169, 169, 169, 0.185);
+    border-radius: 30px;
+    border: 0px;
+    
+}
+
+h2 {
+    text-align: center;
+    color: darkgreen;
+    font-size: 32px;
+    padding: 10px 75px;
+}
+

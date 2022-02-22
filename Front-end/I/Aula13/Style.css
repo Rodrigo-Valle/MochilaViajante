@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+.mainbotton {
+    color: white;
+    background-color: rgb(91, 91, 182);
+    border: 0;
+    padding: 24px;
+    font-size: 22px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    transition-delay: 0.5s;
+    transition-timing-function: ease-in-out;
+    /*transition: <property> <duration> <timing> <delay>;*/
+}
+
+@keyframes floating{
+    0%{
+        transform: translate(0, -30px);
+    }
+    50%{
+        transform: translate(0, 30px); 
+    }
+    100%{
+        transform: translate(0, -30px);
+    }
+}
+
+.gato{
+    display: block;
+    font-size: 200px;
+    text-align: center;
+    animation-name: floating;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.mainbotton:hover{
+    background-color: blue;
+    transform: scale(1.1) skew(-20deg) rotate(5deg) translate(50px, 100px);
+    
+}
+
+@keyframes cores{
+    0%{
+        color: yellow;
+    }
+    20%{
+        color:red;
+    }
+    40%{
+        color: green;
+    }
+    60%{
+        color: blue;
+    }
+    80%{
+        color: yellow;
+    }
+    100%{
+        color: yellow;
+    }
+
+}
+.titulo{
+
+}
+
+main{
+    padding: 32px;
+}
