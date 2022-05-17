@@ -19,9 +19,6 @@ public class Main {
         int numero3 = scanner.nextInt();
 
         System.out.println("o maior numero é: " + maiorDeTres(numero1, numero2, numero3));
-
-
-
     }
 
     static void numeroPrimo (int numero) {
@@ -55,5 +52,3 @@ public class Main {
     }
 }
 
-//Cristian Fernandes,
-//Kened e Gabriel Rizzo
